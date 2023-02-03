@@ -11,8 +11,15 @@ a{
     color: black;
     text-decoration: none;
 
-    :hover{
-        color: $accent-color;
+    &:hover{
+        //color: $hover-color;
         background-color: $hover-color;
     }
+
+
 }
+
+// a:hover{
+//     color: $accent-color;
+//     background-color: $hover-color;
+// }

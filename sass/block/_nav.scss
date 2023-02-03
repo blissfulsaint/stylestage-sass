@@ -1,6 +1,40 @@
 @import "../composition/theme";
 
+@mixin stickyNav() {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 nav {
     background-color:$secondary-color;
+    @include stickyNav();
+
+    ul{
+        color:white;
+        list-style-type: none;
+        padding:20px;
+        display:flex;
+        justify-content: flex-end;
+        gap:30px;
+        
+        li{
+
+            a{
+                color:white;
+                font-weight: bold;
+                transition: 0.5s;
+                
+                &:hover{
+                    border-radius: 5px;
+                    padding:10px;
+                    transition-duration: 0.5s;
+                }
+
+            }
+        }
+    }
 }
+
+
+
 
