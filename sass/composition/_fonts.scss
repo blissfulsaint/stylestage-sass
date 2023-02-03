@@ -4,3 +4,11 @@
 
 $heading-font: 'Playfair Display', serif;
 $paragraph-font: 'Poppins', sans-serif;
+
+h1, h2, h3, h4 {
+    font-family: $heading-font;
+}
+
+p, a, li, span {
+    font-family: $paragraph-font;
+}
