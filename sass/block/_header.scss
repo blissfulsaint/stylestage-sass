@@ -1,27 +1,68 @@
 @import "_body.scss";
+@import "../composition/theme";
+
+@mixin headerHover() {
+  color: white;
+  background-color: $primary-color;
+  transition-duration: 0.5s;
+}
+
+.skip-link {
+  background-color: $primary-color;
+}
 
 header {
-    //@include bodyWidth();
-    text-align: center;
-    background-color: aqua;
+  text-align: center;
+  background-color: $primary-color;
 
-.container{
-    display:grid;
+  .container {
+    @include bodyWidth();
+    padding: 1em;
 
-    h1{
-        background-color: red;
+    h1 {
+      font-size: clamp(2rem, 6.5vw, 9rem);
+      padding: 10px;
     }
 
-    h2{
-        background-color: red;
+    h2 {
+      font-size: clamp(1.5em, 2vw, 3em);
+      padding: 10px;
     }
 
     p {
-        background-color: yellow;
+      font-weight: bold;
+      padding: 10px;
+      margin: 15px;
+      a {
+        color: $accent-color;
+        transition: 0.5s;
+
+        &:hover {
+          @include headerHover();
+        }
+      }
     }
-}
+
+    .link-github {
+      font-weight: bold;
+      border-radius: 20px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+
+      &:hover {
+        @include headerHover();
+      }
+    }
+  }
 }
 
 svg {
-    width:15px;
+  width: 25px;
+  transition: 0.5s;
+
+  &:hover {
+    @include headerHover();
+    width: 35px;
+  }
 }
