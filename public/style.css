@@ -41,26 +41,71 @@ li:not(section.container li) {
   list-style-type: none;
 }
 
-header {
-  text-align: center;
-  background-color: aqua;
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #BBCDE5;
 }
 
-.container {
-  display: grid;
+.skip-link {
+  background-color: #FF92A6;
 }
-.container h1 {
-  background-color: red;
+
+header {
+  text-align: center;
+  background-color: #FF92A6;
 }
-.container h2 {
-  background-color: red;
+header .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
 }
-.container p {
-  background-color: red;
+header .container h1 {
+  font-size: clamp(2rem, 6.5vw, 9rem);
+  padding: 10px;
+}
+header .container h2 {
+  font-size: clamp(1.5em, 2vw, 3em);
+  padding: 10px;
+}
+header .container p {
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px;
+}
+header .container p a {
+  color: #FCDE9C;
+  transition: 0.5s;
+}
+header .container p a:hover {
+  color: white;
+  background-color: #FF92A6;
+  transition-duration: 0.5s;
+}
+header .container .link-github {
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+header .container .link-github:hover {
+  color: white;
+  background-color: #FF92A6;
+  transition-duration: 0.5s;
 }
 
 svg {
-  width: 15px;
+  width: 25px;
+  transition: 0.5s;
+}
+svg:hover {
+  color: white;
+  background-color: #FF92A6;
+  transition-duration: 0.5s;
+  width: 35px;
 }
 
 a {
