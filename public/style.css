@@ -33,6 +33,11 @@ a:hover {
   background-color: #BBCDE5;
 }
 
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -52,6 +57,7 @@ nav ul {
   list-style-type: none;
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   gap: 30px;
 }
@@ -66,14 +72,14 @@ nav ul li a:hover {
   transition-duration: 0.5s;
 }
 
-body {
-  margin: 0 auto;
+footer:not(.files) {
   width: 80%;
-  background-color: aquamarine;
+  margin: 0 auto;
 }
 
-main, header {
-  background-color: red;
+main, aside {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

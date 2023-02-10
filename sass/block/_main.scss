@@ -1,5 +1,5 @@
 @import "_body.scss";
 
-footer:not(.files) {
+main, aside {
     @include bodyWidth();
 }
