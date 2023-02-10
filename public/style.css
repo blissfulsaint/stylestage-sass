@@ -37,6 +37,10 @@ a:hover {
   background-color: #BBCDE5;
 }
 
+li:not(section.container li) {
+  list-style-type: none;
+}
+
 header {
   width: 80%;
   margin: 0 auto;
@@ -76,9 +80,17 @@ nav ul li a:hover {
   transition-duration: 0.5s;
 }
 
+li:not(section.container li) {
+  list-style-type: none;
+}
+
 footer:not(.files) {
   width: 80%;
   margin: 0 auto;
+}
+
+li:not(section.container li) {
+  list-style-type: none;
 }
 
 main, aside {
