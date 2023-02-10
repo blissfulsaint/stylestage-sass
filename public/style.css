@@ -45,17 +45,16 @@ header {
   text-align: center;
   background-color: aqua;
 }
-
-.container {
+header .container {
   display: grid;
 }
-.container h1 {
+header .container h1 {
   background-color: red;
 }
-.container h2 {
+header .container h2 {
   background-color: red;
 }
-.container p {
+header .container p {
   background-color: red;
 }
 
