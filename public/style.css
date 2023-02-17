@@ -99,15 +99,29 @@ header .container .link-github:hover {
 
 svg {
   width: 25px;
-  transition: 0.5s;
-}
-svg:hover {
-  color: white;
-  background-color: #FF92A6;
-  transition-duration: 0.5s;
-  width: 35px;
+  animation: turning-star 8s linear infinite;
 }
 
+@keyframes turning-star {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 a {
   color: black;
   text-decoration: none;
@@ -138,7 +152,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
   transition-duration: 0.5s;
 }
 
@@ -146,9 +160,51 @@ li:not(section.container li) {
   list-style-type: none;
 }
 
-footer:not(.files) {
+.page-footer {
+  background-color: #FF92A6;
+}
+.page-footer .container {
   width: 80%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  padding: 10px;
+}
+.page-footer .container p:nth-child(1), .page-footer .container p:nth-child(3), .page-footer .container p:nth-child(4) {
+  font-weight: bold;
+  padding: 5px;
+}
+.page-footer .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+}
+.page-footer .container ul li {
+  background-color: #FCDE9C;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.page-footer .container ul li:hover {
+  box-shadow: 3px 3px #BBCDE5;
+  padding: 7px;
+  transition-duration: 0.5s;
+}
+.page-footer .container ul li a {
+  padding: 0;
+}
+.page-footer .container ul li a:hover {
+  background-color: #FCDE9C;
+  color: white;
+}
+.page-footer .container ul li a svg {
+  background-color: #FCDE9C;
+  width: 15px;
+  animation: none;
 }
 
 li:not(section.container li) {
