@@ -1,8 +1,13 @@
 @mixin bodyWidth() {
-    width: 80%;
+    padding: 0 clamp(5px, 10%, 300px);
     margin: 0 auto;
 }
 
 li:not(section.container li) {
     list-style-type: none;
+}
+
+p, li:not(nav li), h2 {
+    max-width: 66ch;
+    margin: 0 auto;
 }
