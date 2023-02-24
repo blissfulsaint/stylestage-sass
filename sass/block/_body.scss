@@ -6,3 +6,8 @@
 li:not(section.container li) {
     list-style-type: none;
 }
+
+body {
+    background-image: url("../../images/testBack3.jpg");
+    background-attachment: fixed;
+}
