@@ -1,6 +1,11 @@
 @mixin bodyWidth() {
+    // padding: 0 clamp(10px, 15em, 20%);
     width: 80%;
+    // padding: 0 15em;
     margin: 0 auto;
+    @media screen and (min-width: 1000px) {
+        width: 1000px;
+    }
 }
 
 li:not(section.container li) {
