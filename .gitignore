@@ -4,5 +4,5 @@
 *.log
 .htaccess
 node_modules/
-/public/style.css
-/public/style.css.map
+style.css
+style.css.map
