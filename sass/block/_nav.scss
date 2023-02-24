@@ -23,12 +23,12 @@ nav {
             a{
                 color:white;
                 font-weight: bold;
-                transition: $hover-transition-speed;
+                transition: 0.5s;
                 
                 &:hover{
                     border-radius: 5px;
                     padding:5px;
-                    transition-duration: $hover-transition-speed;
+                    transition-duration: 0.5s;
                 }
 
             }

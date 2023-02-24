@@ -57,11 +57,6 @@ header {
   text-align: center;
   background-color: #FF92A6;
 }
-header a {
-  width: fit-content;
-  margin: 0 auto;
-  background-color: #FCDE9C;
-}
 header .container {
   width: 80%;
   margin: 0 auto;
@@ -87,33 +82,29 @@ header .container p {
 }
 header .container p a {
   color: #FCDE9C;
-  transition: 0.2s;
-  background-color: #FF92A6;
+  transition: 0.5s;
 }
 header .container p a:hover {
   color: white;
+  background-color: #FF92A6;
+  transition-duration: 0.5s;
 }
 header .container .link-github {
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 5px;
   display: flex;
   flex-direction: column;
-  transition: 0.2s;
 }
 header .container .link-github:hover {
   color: white;
-  background-color: #BBCDE5;
-  transition-duration: 0.2s;
-}
-header .container .link-github:hover span svg {
-  fill: white;
+  background-color: #FF92A6;
+  transition-duration: 0.5s;
 }
 
 svg {
   width: 25px;
   animation: turning-star 8s linear infinite;
-  transition: 0.2s;
 }
 
 @keyframes turning-star {
@@ -162,12 +153,12 @@ nav ul {
 nav ul li a {
   color: white;
   font-weight: bold;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 nav ul li a:hover {
   border-radius: 5px;
   padding: 5px;
-  transition-duration: 0.2s;
+  transition-duration: 0.5s;
 }
 
 li:not(section.container li) {
