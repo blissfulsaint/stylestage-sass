@@ -3,8 +3,8 @@
 
 @mixin headerHover() {
   color: white;
-  background-color: $primary-color;
-  transition-duration: 0.5s;
+  background-color: $hover-color;
+  transition-duration: $hover-transition-speed;
 }
 
 .skip-link {
@@ -14,6 +14,12 @@
 header {
   text-align: center;
   background-color: $primary-color;
+
+  a {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: $accent-color;
+  }
 
   .container {
     @include bodyWidth();
@@ -35,23 +41,28 @@ header {
       margin: 15px;
       a {
         color: $accent-color;
-        transition: 0.5s;
+        transition: $hover-transition-speed;
+        background-color: $primary-color;
 
         &:hover {
-          @include headerHover();
+          color: white;
         }
       }
     }
 
     .link-github {
       font-weight: bold;
-      border-radius: 20px;
+      border-radius: 10px;
       padding: 5px;
       display: flex;
       flex-direction: column;
+      transition: $hover-transition-speed;
 
       &:hover {
         @include headerHover();
+        span svg {
+          fill: white;
+        }
       }
     }
   }
@@ -60,6 +71,7 @@ header {
 svg {
   width: 25px;
   animation: turning-star 8s linear infinite;
+  transition: $hover-transition-speed;
 }
 
 @keyframes turning-star{

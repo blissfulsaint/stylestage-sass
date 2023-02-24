@@ -23,19 +23,15 @@ nav {
             a{
                 color:white;
                 font-weight: bold;
-                transition: 0.5s;
+                transition: $hover-transition-speed;
                 
                 &:hover{
                     border-radius: 5px;
                     padding:5px;
-                    transition-duration: 0.5s;
+                    transition-duration: $hover-transition-speed;
                 }
 
             }
         }
     }
 }
-
-
-
-
