@@ -1,0 +1,84 @@
+@import "_body.scss";
+
+
+@media only screen and (min-width: 800px) {
+
+article:first-of-type>section.container:first-child
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+blockquote{
+
+    grid-column: 3/4;
+    height: 100%;
+    padding: 20px;
+    justify-content: center;
+    grid-row: 1/ end 3;
+    border: solid black 1px;
+    align-items: center;
+}
+
+#about>section:first-of-type{
+    grid-column: 1/3;
+}
+
+section>p {
+    grid-column: 1/3;
+    justify-self: auto;
+    row-gap: auto;
+    
+}
+
+// Second Container
+
+section:nth-child(2){
+
+}
+
+section:nth-child(2)>h2,
+section:nth-child(2)>p:first-of-type,
+section:nth-child(2)>p:nth-child(3)
+{
+}
+
+section:nth-child(2)>ul{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#guidelines{
+    // background-color: lavender;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contribute{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.profile{
+    // background-color: aqua;
+}
+
+aside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+aside:first-of-type{
+    grid-column: 1/2;
+}
+#styles>.container{
+    grid-column: 2/3;
+}
+
+
+
+}
