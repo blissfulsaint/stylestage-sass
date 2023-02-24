@@ -13,12 +13,13 @@ article:first-of-type>section.container:first-child
 }
 blockquote{
     grid-column: 3/4;
-    height: 100%;
+    height: fit-content;
     padding: 20px;
     justify-content: center;
-    grid-row: 1/ end 3;
+    grid-row: 1/ end 4;
     border: solid black 1px;
     align-items: center;
+    margin: auto 20px;
 }
 
 #about>section:first-of-type{
@@ -29,7 +30,7 @@ section>p {
     grid-column: 1/3;
     justify-self: auto;
     row-gap: auto;
-    
+    margin-top: 1.5em;
 }
 
 // Second Container
