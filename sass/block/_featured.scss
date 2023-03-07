@@ -1,0 +1,127 @@
+// General Card Styles
+#styles {
+  .container {
+    padding: 20px;
+    text-align: center;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    ul li {
+      padding: 20px;
+      background-color: $accent-color;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      height: 125px;
+      width: 100%;
+      border-radius: 5px;
+      border: 5px solid rgb(233, 233, 233);
+    }
+
+    ul li span {
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+
+      a {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 2px 20px;
+        background-color: $accent-color;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    .link-allstyles {
+      background-color: $hover-color;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: $accent-color;
+        color: black;
+      }
+    }
+  }
+}
+
+//Animation Styles for Cards
+// https://codepen.io/_niikhil/pen/MWpeqby
+#styles {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  .container {
+    ul li:nth-child(1),
+    li:nth-child(2),
+    li:nth-child(3) {
+      position: relative;
+      &:before {
+        position: absolute;
+        content: "Style";
+        text-align: center;
+        color:black;
+        background-color: $primary-color;
+        border-radius: 5px;
+        height: 125px;
+        width: 100%;
+        border-radius: 5px;
+        bottom: 0px;
+        left: 0px;
+        transition: all 0.75s ease-in-out;
+      }
+
+      &:hover::before {
+        width: 0%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #styles {
+    .container {
+      ul {
+        justify-content: space-evenly;
+        flex-direction: row;
+        gap: 25px;
+      }
+      ul li {
+        height: 150px;
+      }
+    }
+  }
+
+  #styles {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    .container {
+      ul li:nth-child(1),
+      li:nth-child(2),
+      li:nth-child(3) {
+        position: relative;
+        &:before {
+          height: 145px;
+          bottom: 0px;
+          left: 0px;
+          transition: all 0.5s ease-in-out;
+        }
+
+        &:hover::before {
+          width: 100%;
+          
+          // bottom:120px;
+          // left:-30px;
+          transform: translate(-30px, -120px);
+        }
+      }
+    }
+  }
+}
