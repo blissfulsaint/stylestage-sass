@@ -33,21 +33,27 @@ footer:not(.files) {
         margin-top: 10%;
         border-radius: 5px;
         padding: 10px;
-        transition: 0.5s;
+        transition: 0.75s;
 
         &:hover {
-          box-shadow: 3px 3px $hover-color;
-          padding: 7px;
+          box-shadow: 5px 5px $hover-color;
+          //padding: 7px;
           transition-duration: 0.5s;
         }
       }
 
       li a {
         padding: 0;
+        transition: $hover-transition-speed;
 
         &:hover {
           background-color: $accent-color;
           color: white;
+
+          svg{
+            fill: white;
+          }
+
         }
       }
 
@@ -55,6 +61,16 @@ footer:not(.files) {
         background-color: $accent-color;
         width: 15px;
         animation: none;
+      }
+    }
+
+    p a{
+      color:$accent-color;
+      background-color: $primary-color;
+      transition: $hover-transition-speed;
+
+      &:hover{
+        color:white;
       }
     }
   }
