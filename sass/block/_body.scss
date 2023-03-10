@@ -16,3 +16,27 @@ body {
     background-image: url("../../images/testBack3.jpg");
     background-attachment: fixed;
 }
+
+main > .container {
+    @media screen and (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: 1fr 1000px 1fr;
+    }
+}
+
+main > .container > * {
+    grid-column: 2/3;
+}
+
+blockquote {
+    border-radius: 10px;
+}
+
+#guidelines {
+    grid-column: 1/4;
+    
+    section {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

@@ -9,6 +9,7 @@ nav {
     background-color:$secondary-color;
     z-index:2;
     @include stickyNav();
+    z-index: 1;
 
     ul{
         color:white;
