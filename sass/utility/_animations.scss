@@ -7,8 +7,8 @@ section>ul>li:nth-of-type(7),
 section>ul>li:nth-of-type(10),
 section>ul>li:nth-of-type(13),
 section>ul>li:nth-of-type(16){
-    animation: fadeIn 1.5s;
-    -webkit-animation: fadeIn 1.5s;
+    animation: fadeIn 3.5s;
+    -webkit-animation: fadeIn 3.5s;
 }
 
 section>ul>li:nth-of-type(2),
@@ -17,8 +17,8 @@ section>ul>li:nth-of-type(8),
 section>ul>li:nth-of-type(11),
 section>ul>li:nth-of-type(14),
 section>ul>li:nth-of-type(17){
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
 }
 
 section>ul>li:nth-of-type(3),
@@ -26,8 +26,8 @@ section>ul>li:nth-of-type(6),
 section>ul>li:nth-of-type(9),
 section>ul>li:nth-of-type(12),
 section>ul>li:nth-of-type(15){
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
 }
 
 
@@ -47,8 +47,8 @@ section>ul>li:nth-of-type(15){
   }
 
 blockquote{
-     -webkit-animation: bounce-in-left 1.2s both;
-  animation: bounce-in-left 1.7s both; 
+     -webkit-animation: bounce-in-left 3.2s both;
+  animation: bounce-in-left 3.7s; 
 }
 
 
