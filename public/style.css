@@ -44,6 +44,26 @@ li:not(section.container li) {
 body {
   background-image: url("../../images/testBack3.jpg");
   background-attachment: fixed;
+  position: relative;
+}
+body::after {
+  background-image: "../../images/testBack2.jpg";
+  z-index: 1;
+  position: absolute;
+}
+
+#contribute {
+  position: relative;
+}
+#contribute::before {
+  content: "";
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: calc(100% + 80px);
+  height: 100vh;
 }
 
 main > .container {
@@ -224,6 +244,26 @@ li:not(section.container li) {
 body {
   background-image: url("../../images/testBack3.jpg");
   background-attachment: fixed;
+  position: relative;
+}
+body::after {
+  background-image: "../../images/testBack2.jpg";
+  z-index: 1;
+  position: absolute;
+}
+
+#contribute {
+  position: relative;
+}
+#contribute::before {
+  content: "";
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: calc(100% + 80px);
+  height: 100vh;
 }
 
 main > .container {
@@ -307,24 +347,35 @@ blockquote {
   margin-top: 10%;
   border-radius: 5px;
   padding: 10px;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .page-footer .container ul li:hover {
-  box-shadow: 3px 3px #BBCDE5;
-  padding: 7px;
+  box-shadow: 5px 5px #BBCDE5;
   transition-duration: 0.5s;
 }
 .page-footer .container ul li a {
   padding: 0;
+  transition: 0.2s;
 }
 .page-footer .container ul li a:hover {
   background-color: #FCDE9C;
   color: white;
 }
+.page-footer .container ul li a:hover svg {
+  fill: white;
+}
 .page-footer .container ul li a svg {
   background-color: #FCDE9C;
   width: 15px;
   animation: none;
+}
+.page-footer .container p a {
+  color: #FCDE9C;
+  background-color: #FF92A6;
+  transition: 0.2s;
+}
+.page-footer .container p a:hover {
+  color: white;
 }
 
 @media only screen and (min-width: 700px) {
@@ -340,6 +391,26 @@ li:not(section.container li) {
 body {
   background-image: url("../../images/testBack3.jpg");
   background-attachment: fixed;
+  position: relative;
+}
+body::after {
+  background-image: "../../images/testBack2.jpg";
+  z-index: 1;
+  position: absolute;
+}
+
+#contribute {
+  position: relative;
+}
+#contribute::before {
+  content: "";
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: calc(100% + 80px);
+  height: 100vh;
 }
 
 main > .container {
@@ -411,6 +482,26 @@ li:not(section.container li) {
 body {
   background-image: url("../../images/testBack3.jpg");
   background-attachment: fixed;
+  position: relative;
+}
+body::after {
+  background-image: "../../images/testBack2.jpg";
+  z-index: 1;
+  position: absolute;
+}
+
+#contribute {
+  position: relative;
+}
+#contribute::before {
+  content: "";
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: calc(100% + 80px);
+  height: 100vh;
 }
 
 main > .container {

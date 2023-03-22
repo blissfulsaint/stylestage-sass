@@ -15,6 +15,28 @@ li:not(section.container li) {
 body {
     background-image: url("../../images/testBack3.jpg");
     background-attachment: fixed;
+    position: relative;
+
+    &::after {
+        background-image: '../../images/testBack2.jpg';
+        z-index: 1;
+        position: absolute;
+    }
+}
+
+#contribute {
+    position: relative;
+    &::before{
+        content: '';
+        // background-image: url("../../images/testBack2.jpg");
+        background-attachment: fixed;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        width: calc(100% + 80px);
+        height: 100vh;
+    }
 }
 
 main > .container {
