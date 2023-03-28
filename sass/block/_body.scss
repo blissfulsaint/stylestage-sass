@@ -31,7 +31,10 @@ main > .container {
 }
 
 aside.profile {
-    width: 400px;
+    width: 100%;
+    @media screen and (min-width: 500px){
+        width: 400px;
+    }
 }
 
 main > .container > * {
@@ -53,3 +56,4 @@ blockquote {
         }
     }
 }
+
