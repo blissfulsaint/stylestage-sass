@@ -1,4 +1,5 @@
 @import "_body.scss";
+@import "../composition/_theme.scss";
 
 
 @media only screen and (min-width: 800px) {
@@ -9,10 +10,12 @@ article:first-of-type>section.container:first-child
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 
 }
 blockquote{
     grid-column: 3/4;
+    background-color: $accent-color;
     height: fit-content;
     padding: 20px;
     justify-content: center;
@@ -31,6 +34,7 @@ section>p {
     justify-self: auto;
     row-gap: auto;
     margin-top: 1.5em;
+    
 }
 
 // Second Container
@@ -54,6 +58,7 @@ section:nth-child(2)>ul{
 
 #guidelines{
     // background-color: lavender;
+    margin-top: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -68,17 +73,31 @@ section:nth-child(2)>ul{
 }
 
 
-// aside{
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-// }
-// aside:first-of-type{
-//     grid-column: 1/2;
-// }
-// #styles>.container{
-//     grid-column: 2/3;
-// }
-
-
-
 }
+
+
+@media only screen and (max-width: 420px) {
+
+    body{
+        padding-top: 10px;
+        
+    }
+
+    blockquote{
+        border: solid black 1px;
+        padding: 10px;
+        background-color: $accent-color;
+
+
+    }
+
+    #about{
+        padding-top: 30px;
+    }
+
+    #contribute{
+        padding-bottom: 20px;
+    }
+    
+  }
+  
