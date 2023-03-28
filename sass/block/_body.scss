@@ -13,8 +13,9 @@ li:not(section.container li) {
 }
 
 body {
-    background-image: url("../../images/testBack3.jpg");
+    background: linear-gradient(rgba(226, 226, 226, 0.679), rgba(228, 228, 228, 0.679)), url("../../images/japanday.jpg");
     background-attachment: fixed;
+    background-size: cover;
 }
 
 main > .container {
@@ -26,19 +27,24 @@ main > .container {
     }
 }
 
-#styles, aside.profile {
-    @include bodyWidth();
-}
-
 aside.profile {
     width: 100%;
-    @media screen and (min-width: 500px){
-        width: 400px;
-    }
 }
 
 main > .container > * {
     grid-column: 2/3;
+}
+
+#contribute {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    @media screen and (min-width: 1000px){
+        grid-template-columns: 1fr 1000px 1fr;
+    }
+    & > * {
+        grid-column: 2/3;
+    }
 }
 
 blockquote {
