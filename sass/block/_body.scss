@@ -15,27 +15,30 @@ li:not(section.container li) {
 body {
     background-image: url("../../images/testBack3.jpg");
     background-attachment: fixed;
-    position: relative;
 
-    &::after {
-        background-image: '../../images/testBack2.jpg';
-        z-index: 1;
+    &:after {
+        content: '';
+        background-image: url('../../images/testBack2.jpg');
+        background-attachment: fixed;
+        z-index: -1;
         position: absolute;
+        // top: 50%;
+        height: 100%;
+        width: 100%;
     }
 }
 
 #contribute {
     position: relative;
-    &::before{
+    &:after {
         content: '';
-        // background-image: url("../../images/testBack2.jpg");
+        background-image: url('../../images/testBack2.jpg');
         background-attachment: fixed;
-        position: absolute;
         z-index: -1;
-        left: 0;
-        top: 0;
-        width: calc(100% + 80px);
-        height: 100vh;
+        position: absolute;
+        // top: 50%;
+        height: 100%;
+        width: 100%;
     }
 }
 
