@@ -11,9 +11,10 @@
 
     #profile-title {
       font-size: 20px;
-      padding: 10px;
+      padding: 10px 50px;
       border-bottom: 2px solid rgb(169, 168, 168);
-      margin-bottom: 10px;
+      width: fit-content;
+      margin: 0 auto 10px;
     }
 
     .profile-twitter,
@@ -34,9 +35,11 @@
       //border: 1px solid #E9E9E9;
       background-color: $accent-color;
       padding: 10px;
-      transition: all 0.8s ease-in;
+      transition: .2s;
       border-radius: 5px;
       display: block;
+      width: fit-content;
+      margin: 1em auto 0;
 
       &:hover {
         background-color: $hover-color;

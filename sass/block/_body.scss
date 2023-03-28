@@ -34,6 +34,18 @@ main > .container > * {
     grid-column: 2/3;
 }
 
+#contribute {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    @media screen and (min-width: 1000px){
+        grid-template-columns: 1fr 1000px 1fr;
+    }
+    & > * {
+        grid-column: 2/3;
+    }
+}
+
 blockquote {
     border-radius: 10px;
 }

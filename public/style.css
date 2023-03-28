@@ -47,9 +47,10 @@ a:hover {
   background-color: #BBCDE5;
 }
 
-.profile, #styles {
+.profile, #styles, #contribute {
   background-image: url("../../images/testBack2.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 li:not(section.container li) {
@@ -80,6 +81,20 @@ main > .container > * {
   grid-column: 2/3;
 }
 
+#contribute {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+}
+@media screen and (min-width: 1000px) {
+  #contribute {
+    grid-template-columns: 1fr 1000px 1fr;
+  }
+}
+#contribute > * {
+  grid-column: 2/3;
+}
+
 blockquote {
   border-radius: 10px;
 }
@@ -105,9 +120,10 @@ a:hover {
   background-color: #BBCDE5;
 }
 
-.profile, #styles {
+.profile, #styles, #contribute {
   background-image: url("../../images/testBack2.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .skip-link {
@@ -197,9 +213,10 @@ a:hover {
   background-color: #BBCDE5;
 }
 
-.profile, #styles {
+.profile, #styles, #contribute {
   background-image: url("../../images/testBack2.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 nav {
@@ -255,6 +272,20 @@ aside.profile {
 }
 
 main > .container > * {
+  grid-column: 2/3;
+}
+
+#contribute {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+}
+@media screen and (min-width: 1000px) {
+  #contribute {
+    grid-template-columns: 1fr 1000px 1fr;
+  }
+}
+#contribute > * {
   grid-column: 2/3;
 }
 
@@ -373,6 +404,20 @@ main > .container > * {
   grid-column: 2/3;
 }
 
+#contribute {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+}
+@media screen and (min-width: 1000px) {
+  #contribute {
+    grid-template-columns: 1fr 1000px 1fr;
+  }
+}
+#contribute > * {
+  grid-column: 2/3;
+}
+
 blockquote {
   border-radius: 10px;
 }
@@ -398,9 +443,10 @@ a:hover {
   background-color: #BBCDE5;
 }
 
-.profile, #styles {
+.profile, #styles, #contribute {
   background-image: url("../../images/testBack2.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .profile {
@@ -439,6 +485,20 @@ main > .container > * {
   grid-column: 2/3;
 }
 
+#contribute {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+}
+@media screen and (min-width: 1000px) {
+  #contribute {
+    grid-template-columns: 1fr 1000px 1fr;
+  }
+}
+#contribute > * {
+  grid-column: 2/3;
+}
+
 blockquote {
   border-radius: 10px;
 }
@@ -464,9 +524,10 @@ a:hover {
   background-color: #BBCDE5;
 }
 
-.profile, #styles {
+.profile, #styles, #contribute {
   background-image: url("../../images/testBack2.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 blockquote {
@@ -541,9 +602,10 @@ a:hover {
   background-color: #BBCDE5;
 }
 
-.profile, #styles {
+.profile, #styles, #contribute {
   background-image: url("../../images/testBack2.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .profile {
@@ -555,9 +617,10 @@ a:hover {
 }
 .profile .container #profile-title {
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 50px;
   border-bottom: 2px solid rgb(169, 168, 168);
-  margin-bottom: 10px;
+  width: fit-content;
+  margin: 0 auto 10px;
 }
 .profile .container .profile-twitter,
 .profile .container .profile-website {
@@ -574,9 +637,11 @@ a:hover {
 .profile .container a {
   background-color: #FCDE9C;
   padding: 10px;
-  transition: all 0.8s ease-in;
+  transition: 0.2s;
   border-radius: 5px;
   display: block;
+  width: fit-content;
+  margin: 1em auto 0;
 }
 .profile .container a:hover {
   background-color: #BBCDE5;
@@ -592,7 +657,7 @@ a:hover {
   }
 }
 #styles .container {
-  padding: 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 #styles .container ul {
@@ -759,6 +824,20 @@ aside.profile {
 }
 
 main > .container > * {
+  grid-column: 2/3;
+}
+
+#contribute {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+}
+@media screen and (min-width: 1000px) {
+  #contribute {
+    grid-template-columns: 1fr 1000px 1fr;
+  }
+}
+#contribute > * {
   grid-column: 2/3;
 }
 
