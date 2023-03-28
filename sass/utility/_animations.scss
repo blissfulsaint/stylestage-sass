@@ -17,8 +17,8 @@ section>ul>li:nth-of-type(8),
 section>ul>li:nth-of-type(11),
 section>ul>li:nth-of-type(14),
 section>ul>li:nth-of-type(17){
-    animation: fadeIn 6s;
-    -webkit-animation: fadeIn 6s;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
 }
 
 section>ul>li:nth-of-type(3),
@@ -26,8 +26,8 @@ section>ul>li:nth-of-type(6),
 section>ul>li:nth-of-type(9),
 section>ul>li:nth-of-type(12),
 section>ul>li:nth-of-type(15){
-    animation: fadeIn 8s;
-    -webkit-animation: fadeIn 8s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
 }
 
 
@@ -47,8 +47,8 @@ section>ul>li:nth-of-type(15){
   }
 
 blockquote{
-     -webkit-animation: bounce-in-left 3.2s both;
-  animation: bounce-in-left 3.7s; 
+     -webkit-animation: bounce-in-left 2s both;
+  animation: bounce-in-left 2s; 
 }
 
 

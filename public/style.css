@@ -48,7 +48,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.6), rgba(75, 75, 75, 0.6)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -69,12 +69,34 @@ a:hover {
   color: black;
 }
 
+#about a {
+  color: #ca6779;
+  font-weight: bold;
+}
+#about a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.container:not(main > .container), article {
+  padding: 30px 0;
+}
+
+#about .container li {
+  list-style-position: inside;
+  padding-left: 15px;
+}
+
 li:not(section.container li) {
   list-style-type: none;
 }
 
 body {
-  background: linear-gradient(rgba(226, 226, 226, 0.679), rgba(228, 228, 228, 0.679)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -138,7 +160,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.6), rgba(75, 75, 75, 0.6)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -157,6 +179,15 @@ a:hover {
 }
 .profile #profile-title ~ ul li, #styles #profile-title ~ ul li, #contribute #profile-title ~ ul li {
   color: black;
+}
+
+#about a {
+  color: #ca6779;
+  font-weight: bold;
+}
+#about a:hover {
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 .skip-link {
@@ -247,7 +278,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.6), rgba(75, 75, 75, 0.6)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -266,6 +297,15 @@ a:hover {
 }
 .profile #profile-title ~ ul li, #styles #profile-title ~ ul li, #contribute #profile-title ~ ul li {
   color: black;
+}
+
+#about a {
+  color: #ca6779;
+  font-weight: bold;
+}
+#about a:hover {
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 nav {
@@ -296,12 +336,25 @@ nav ul li a:hover {
   transition-duration: 0.2s;
 }
 
+p {
+  margin-top: 30px;
+}
+
+.container:not(main > .container), article {
+  padding: 30px 0;
+}
+
+#about .container li {
+  list-style-position: inside;
+  padding-left: 15px;
+}
+
 li:not(section.container li) {
   list-style-type: none;
 }
 
 body {
-  background: linear-gradient(rgba(226, 226, 226, 0.679), rgba(228, 228, 228, 0.679)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -426,12 +479,25 @@ blockquote {
     margin-bottom: 10px;
   }
 }
+p {
+  margin-top: 30px;
+}
+
+.container:not(main > .container), article {
+  padding: 30px 0;
+}
+
+#about .container li {
+  list-style-position: inside;
+  padding-left: 15px;
+}
+
 li:not(section.container li) {
   list-style-type: none;
 }
 
 body {
-  background: linear-gradient(rgba(226, 226, 226, 0.679), rgba(228, 228, 228, 0.679)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -495,7 +561,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.6), rgba(75, 75, 75, 0.6)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -514,6 +580,15 @@ a:hover {
 }
 .profile #profile-title ~ ul li, #styles #profile-title ~ ul li, #contribute #profile-title ~ ul li {
   color: black;
+}
+
+#about a {
+  color: #ca6779;
+  font-weight: bold;
+}
+#about a:hover {
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 .profile {
@@ -524,12 +599,25 @@ a:hover {
   background-color: #FF92A6;
 }
 
+p {
+  margin-top: 30px;
+}
+
+.container:not(main > .container), article {
+  padding: 30px 0;
+}
+
+#about .container li {
+  list-style-position: inside;
+  padding-left: 15px;
+}
+
 li:not(section.container li) {
   list-style-type: none;
 }
 
 body {
-  background: linear-gradient(rgba(226, 226, 226, 0.679), rgba(228, 228, 228, 0.679)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -593,7 +681,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.6), rgba(75, 75, 75, 0.6)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -612,6 +700,15 @@ a:hover {
 }
 .profile #profile-title ~ ul li, #styles #profile-title ~ ul li, #contribute #profile-title ~ ul li {
   color: black;
+}
+
+#about a {
+  color: #ca6779;
+  font-weight: bold;
+}
+#about a:hover {
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 blockquote {
@@ -663,9 +760,6 @@ blockquote {
   }
 }
 @media only screen and (max-width: 420px) {
-  body {
-    padding-top: 10px;
-  }
   blockquote {
     border: solid black 1px;
     padding: 10px;
@@ -687,7 +781,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.6), rgba(75, 75, 75, 0.6)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -706,6 +800,15 @@ a:hover {
 }
 .profile #profile-title ~ ul li, #styles #profile-title ~ ul li, #contribute #profile-title ~ ul li {
   color: black;
+}
+
+#about a {
+  color: #ca6779;
+  font-weight: bold;
+}
+#about a:hover {
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 .profile {
@@ -733,6 +836,7 @@ a:hover {
   height: 170px;
   width: 400px;
   margin: 0 auto;
+  border-radius: 20px;
 }
 .profile .container a {
   background-color: #FCDE9C;
@@ -899,12 +1003,25 @@ a:hover {
     transform: translate(0px, 30px);
   }
 }
+p {
+  margin-top: 30px;
+}
+
+.container:not(main > .container), article {
+  padding: 30px 0;
+}
+
+#about .container li {
+  list-style-position: inside;
+  padding-left: 15px;
+}
+
 li:not(section.container li) {
   list-style-type: none;
 }
 
 body {
-  background: linear-gradient(rgba(226, 226, 226, 0.679), rgba(228, 228, 228, 0.679)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -1012,8 +1129,8 @@ section > ul > li:nth-of-type(8),
 section > ul > li:nth-of-type(11),
 section > ul > li:nth-of-type(14),
 section > ul > li:nth-of-type(17) {
-  animation: fadeIn 6s;
-  -webkit-animation: fadeIn 6s;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
 }
 
 section > ul > li:nth-of-type(3),
@@ -1021,8 +1138,8 @@ section > ul > li:nth-of-type(6),
 section > ul > li:nth-of-type(9),
 section > ul > li:nth-of-type(12),
 section > ul > li:nth-of-type(15) {
-  animation: fadeIn 8s;
-  -webkit-animation: fadeIn 8s;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
@@ -1042,8 +1159,8 @@ section > ul > li:nth-of-type(15) {
   }
 }
 blockquote {
-  -webkit-animation: bounce-in-left 3.2s both;
-  animation: bounce-in-left 3.7s;
+  -webkit-animation: bounce-in-left 2s both;
+  animation: bounce-in-left 2s;
 }
 
 /**
