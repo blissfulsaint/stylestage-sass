@@ -327,12 +327,11 @@ nav ul {
 }
 nav ul li a {
   color: white;
-  font-weight: bold;
   transition: 0.2s;
 }
 nav ul li a:hover {
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 8px;
   transition-duration: 0.2s;
 }
 
