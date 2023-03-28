@@ -24,15 +24,13 @@ nav {
 
             a{
                 color:white;
-                font-weight: bold;
                 transition: $hover-transition-speed;
                 
                 &:hover{
                     border-radius: 5px;
-                    padding:5px;
+                    padding:5px 8px;
                     transition-duration: $hover-transition-speed;
                 }
-
             }
         }
     }
