@@ -16,7 +16,7 @@ footer:not(.files) {
     p:nth-child(1),
     p:nth-child(3),
     p:nth-child(4) {
-      font-weight: bold;
+      // font-weight: bold;
       padding: 5px;
     }
 
@@ -29,7 +29,7 @@ footer:not(.files) {
 
       li {
         background-color: $accent-color;
-        font-weight: bold;
+        // font-weight: bold;
         margin-top: 10%;
         border-radius: 5px;
         padding: 10px;
