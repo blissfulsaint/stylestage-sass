@@ -1085,8 +1085,8 @@ blockquote {
   grid-row: 1/2;
 }
 #files .container a {
-  width: 50%;
-  padding: 5px;
+  width: fit-content;
+  padding: 5px 8px;
   background-color: #FCDE9C;
   transition: 0.2s;
   border-radius: 5px;
@@ -1096,6 +1096,7 @@ blockquote {
 }
 #files .container a:hover {
   color: white;
+  background-color: #BBCDE5;
 }
 
 @media only screen and (min-width: 700px) {
@@ -1109,7 +1110,6 @@ blockquote {
   }
   #files .container a {
     grid-row: 2/3;
-    width: 50%;
   }
 }
 section > ul > li:first-of-type,
