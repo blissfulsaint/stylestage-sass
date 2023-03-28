@@ -68,7 +68,12 @@ main > .container {
 }
 
 aside.profile {
-  width: 400px;
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  aside.profile {
+    width: 400px;
+  }
 }
 
 main > .container > * {
@@ -248,7 +253,12 @@ main > .container {
 }
 
 aside.profile {
-  width: 400px;
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  aside.profile {
+    width: 400px;
+  }
 }
 
 main > .container > * {
@@ -307,24 +317,35 @@ blockquote {
   margin-top: 10%;
   border-radius: 5px;
   padding: 10px;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .page-footer .container ul li:hover {
-  box-shadow: 3px 3px #BBCDE5;
-  padding: 7px;
+  box-shadow: 5px 5px #BBCDE5;
   transition-duration: 0.5s;
 }
 .page-footer .container ul li a {
   padding: 0;
+  transition: 0.2s;
 }
 .page-footer .container ul li a:hover {
   background-color: #FCDE9C;
   color: white;
 }
+.page-footer .container ul li a:hover svg {
+  fill: white;
+}
 .page-footer .container ul li a svg {
   background-color: #FCDE9C;
   width: 15px;
   animation: none;
+}
+.page-footer .container p a {
+  color: #FCDE9C;
+  background-color: #FF92A6;
+  transition: 0.2s;
+}
+.page-footer .container p a:hover {
+  color: white;
 }
 
 @media only screen and (min-width: 700px) {
@@ -364,7 +385,12 @@ main > .container {
 }
 
 aside.profile {
-  width: 400px;
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  aside.profile {
+    width: 400px;
+  }
 }
 
 main > .container > * {
@@ -435,7 +461,12 @@ main > .container {
 }
 
 aside.profile {
-  width: 400px;
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  aside.profile {
+    width: 400px;
+  }
 }
 
 main > .container > * {
@@ -539,7 +570,7 @@ a:hover {
   border-radius: 5px;
   position: absolute;
   bottom: 35px;
-  right: 105px;
+  right: 32%;
 }
 .profile .container a:hover {
   background-color: #BBCDE5;
@@ -551,7 +582,7 @@ a:hover {
     width: 350px;
   }
   .profile .container a {
-    right: 105px;
+    right: 130px;
   }
 }
 #styles .container {
@@ -561,15 +592,17 @@ a:hover {
 #styles .container ul {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
+  margin-bottom: 20px;
 }
 #styles .container ul li {
   padding: 20px;
   background-color: #FCDE9C;
   margin-bottom: 25px;
   margin-top: 20px;
-  height: 125px;
-  width: 100%;
+  height: 200px;
+  width: 300px;
   border-radius: 5px;
   border: 5px solid rgb(233, 233, 233);
 }
@@ -584,6 +617,7 @@ a:hover {
   margin: 0 auto;
   padding: 2px 20px;
   background-color: #FCDE9C;
+  transition: 0.2s;
 }
 #styles .container ul li span a:hover {
   color: white;
@@ -595,6 +629,7 @@ a:hover {
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
+  transition: 0.2s;
 }
 #styles .container .link-allstyles:hover {
   background-color: #FCDE9C;
@@ -605,64 +640,199 @@ a:hover {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-#styles .container ul li:nth-child(1),
-#styles .container li:nth-child(2),
-#styles .container li:nth-child(3) {
+#styles .container ul li {
   position: relative;
 }
-#styles .container ul li:nth-child(1):before,
-#styles .container li:nth-child(2):before,
-#styles .container li:nth-child(3):before {
+#styles .container ul li:nth-child(1):before {
+  background-image: url("../../images/test2.jpg");
+  background-repeat: no-repeat;
   position: absolute;
-  content: "Style";
-  text-align: center;
+  content: "";
   color: black;
-  background-color: #FF92A6;
   border-radius: 5px;
-  height: 125px;
+  height: 200px;
   width: 100%;
   border-radius: 5px;
   bottom: 0px;
   left: 0px;
-  transition: all 0.75s ease-in-out;
+  transition: all 1s ease-in-out;
 }
-#styles .container ul li:nth-child(1):hover::before,
-#styles .container li:nth-child(2):hover::before,
-#styles .container li:nth-child(3):hover::before {
+#styles .container ul li:nth-child(1):hover::before {
+  width: 0%;
+}
+#styles .container ul li:nth-child(2):before {
+  background-image: url("../../images/christine.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+  color: black;
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  bottom: 0px;
+  left: 0px;
+  transition: all 1s ease-in-out;
+}
+#styles .container ul li:nth-child(2):hover::before {
+  width: 0%;
+}
+#styles .container ul li:nth-child(3):before {
+  background-image: url("../../images/beatriceIMG.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+  color: black;
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  bottom: 0px;
+  left: 0px;
+  transition: all 1s ease-in-out;
+}
+#styles .container ul li:nth-child(3):hover::before {
   width: 0%;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
   #styles .container ul {
     justify-content: space-evenly;
     flex-direction: row;
-    gap: 25px;
+    gap: 30px;
   }
   #styles .container ul li {
-    height: 150px;
+    height: 250px;
+  }
+  #styles .container ul li span a:first-child {
+    margin-top: 75px;
   }
   #styles {
     margin-top: 5%;
     margin-bottom: 5%;
   }
   #styles .container ul li:nth-child(1),
-  #styles .container li:nth-child(2),
-  #styles .container li:nth-child(3) {
+  #styles .container ul li:nth-child(2),
+  #styles .container ul li:nth-child(3) {
     position: relative;
+    transition: all 0.5s ease-in-out;
   }
   #styles .container ul li:nth-child(1):before,
-  #styles .container li:nth-child(2):before,
-  #styles .container li:nth-child(3):before {
-    height: 145px;
+  #styles .container ul li:nth-child(2):before,
+  #styles .container ul li:nth-child(3):before {
+    height: 250px;
     bottom: 0px;
     left: 0px;
     transition: all 0.5s ease-in-out;
   }
   #styles .container ul li:nth-child(1):hover::before,
-  #styles .container li:nth-child(2):hover::before,
-  #styles .container li:nth-child(3):hover::before {
+  #styles .container ul li:nth-child(2):hover::before,
+  #styles .container ul li:nth-child(3):hover::before {
     width: 100%;
-    transform: translate(-30px, -120px);
+    transform: translate(-35px, -150px);
+  }
+  #styles .container ul li:nth-child(1):hover,
+  #styles .container ul li:nth-child(2):hover,
+  #styles .container ul li:nth-child(3):hover {
+    transform: translate(0px, 30px);
+  }
+}
+li:not(section.container li) {
+  list-style-type: none;
+}
+
+body {
+  background-image: url("../../images/testBack3.jpg");
+  background-attachment: fixed;
+}
+
+main > .container {
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+}
+@media screen and (min-width: 1000px) {
+  main > .container {
+    width: 100%;
+    grid-template-columns: 1fr 1000px 1fr;
+  }
+}
+
+#styles, aside.profile {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1000px) {
+  #styles, aside.profile {
+    width: 1000px;
+  }
+}
+
+aside.profile {
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  aside.profile {
+    width: 400px;
+  }
+}
+
+main > .container > * {
+  grid-column: 2/3;
+}
+
+blockquote {
+  border-radius: 10px;
+}
+
+#guidelines {
+  grid-column: 1/4;
+}
+#guidelines section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1000px) {
+  #guidelines section {
+    max-width: 1000px;
+  }
+}
+
+#files .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+#files .container h3 {
+  margin-bottom: 10px;
+  grid-row: 1/2;
+}
+#files .container a {
+  width: 50%;
+  padding: 5px;
+  background-color: #FCDE9C;
+  transition: 0.2s;
+  border-radius: 5px;
+  border: 5px solid #e9e9e9;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+#files .container a:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 700px) {
+  #files .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  #files .container h3 {
+    grid-row: 1/2;
+  }
+  #files .container a {
+    grid-row: 2/3;
+    width: 50%;
   }
 }
 section > ul > li:first-of-type,
