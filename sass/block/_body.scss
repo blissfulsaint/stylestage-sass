@@ -13,8 +13,9 @@ li:not(section.container li) {
 }
 
 body {
-    background-image: url("../../images/testBack3.jpg");
+    background: linear-gradient(rgba(226, 226, 226, 0.679), rgba(228, 228, 228, 0.679)), url("../../images/japanday.jpg");
     background-attachment: fixed;
+    background-size: cover;
 }
 
 main > .container {
