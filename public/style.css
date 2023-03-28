@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Montserrat:wght@100;200&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Montserrat:wght@100;200;400&family=Poppins:wght@300&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -23,10 +23,20 @@ h1, h2, h3, h4, p, a, ul, li {
 
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+header h1, header h2 {
+  font-weight: 200;
 }
 
 p, a, li, span {
   font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+body {
+  font-size: 1.08em;
 }
 
 a {
@@ -35,6 +45,11 @@ a {
 }
 a:hover {
   background-color: #BBCDE5;
+}
+
+.profile, #styles {
+  background-image: url("../../images/testBack2.jpg");
+  background-attachment: fixed;
 }
 
 li:not(section.container li) {
@@ -57,23 +72,8 @@ main > .container {
   }
 }
 
-#styles, aside.profile {
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1000px) {
-  #styles, aside.profile {
-    width: 1000px;
-  }
-}
-
 aside.profile {
   width: 100%;
-}
-@media screen and (min-width: 500px) {
-  aside.profile {
-    width: 400px;
-  }
 }
 
 main > .container > * {
@@ -105,6 +105,11 @@ a:hover {
   background-color: #BBCDE5;
 }
 
+.profile, #styles {
+  background-image: url("../../images/testBack2.jpg");
+  background-attachment: fixed;
+}
+
 .skip-link {
   display: none;
 }
@@ -131,7 +136,6 @@ header .container h2 {
   padding: 10px;
 }
 header .container p {
-  font-weight: bold;
   padding: 10px;
   margin: 15px;
 }
@@ -144,7 +148,6 @@ header .container p a:hover {
   color: white;
 }
 header .container .link-github {
-  font-weight: bold;
   border-radius: 10px;
   padding: 5px;
   display: flex;
@@ -192,6 +195,11 @@ a {
 }
 a:hover {
   background-color: #BBCDE5;
+}
+
+.profile, #styles {
+  background-image: url("../../images/testBack2.jpg");
+  background-attachment: fixed;
 }
 
 nav {
@@ -242,23 +250,8 @@ main > .container {
   }
 }
 
-#styles, aside.profile {
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1000px) {
-  #styles, aside.profile {
-    width: 1000px;
-  }
-}
-
 aside.profile {
   width: 100%;
-}
-@media screen and (min-width: 500px) {
-  aside.profile {
-    width: 400px;
-  }
 }
 
 main > .container > * {
@@ -301,7 +294,6 @@ blockquote {
 .page-footer .container p:nth-child(1),
 .page-footer .container p:nth-child(3),
 .page-footer .container p:nth-child(4) {
-  font-weight: bold;
   padding: 5px;
 }
 .page-footer .container ul {
@@ -313,7 +305,6 @@ blockquote {
 }
 .page-footer .container ul li {
   background-color: #FCDE9C;
-  font-weight: bold;
   margin-top: 10%;
   border-radius: 5px;
   padding: 10px;
@@ -374,23 +365,8 @@ main > .container {
   }
 }
 
-#styles, aside.profile {
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1000px) {
-  #styles, aside.profile {
-    width: 1000px;
-  }
-}
-
 aside.profile {
   width: 100%;
-}
-@media screen and (min-width: 500px) {
-  aside.profile {
-    width: 400px;
-  }
 }
 
 main > .container > * {
@@ -420,6 +396,11 @@ a {
 }
 a:hover {
   background-color: #BBCDE5;
+}
+
+.profile, #styles {
+  background-image: url("../../images/testBack2.jpg");
+  background-attachment: fixed;
 }
 
 .profile {
@@ -450,23 +431,8 @@ main > .container {
   }
 }
 
-#styles, aside.profile {
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1000px) {
-  #styles, aside.profile {
-    width: 1000px;
-  }
-}
-
 aside.profile {
   width: 100%;
-}
-@media screen and (min-width: 500px) {
-  aside.profile {
-    width: 400px;
-  }
 }
 
 main > .container > * {
@@ -490,6 +456,25 @@ blockquote {
   }
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #BBCDE5;
+}
+
+.profile, #styles {
+  background-image: url("../../images/testBack2.jpg");
+  background-attachment: fixed;
+}
+
+blockquote {
+  border: solid black 1px;
+  padding: 10px;
+  background-color: #FCDE9C;
+}
+
 @media only screen and (min-width: 800px) {
   article:first-of-type > section.container:first-child {
     display: grid;
@@ -499,6 +484,7 @@ blockquote {
   }
   blockquote {
     grid-column: 3/4;
+    background-color: #FCDE9C;
     height: fit-content;
     padding: 20px;
     justify-content: center;
@@ -522,12 +508,29 @@ blockquote {
     grid-template-columns: 1fr 1fr 1fr;
   }
   #guidelines {
+    margin-top: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
   #contribute {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  body {
+    padding-top: 10px;
+  }
+  blockquote {
+    border: solid black 1px;
+    padding: 10px;
+    background-color: #FCDE9C;
+  }
+  #about {
+    padding-top: 30px;
+  }
+  #contribute {
+    padding-bottom: 20px;
   }
 }
 a {
@@ -538,10 +541,14 @@ a:hover {
   background-color: #BBCDE5;
 }
 
+.profile, #styles {
+  background-image: url("../../images/testBack2.jpg");
+  background-attachment: fixed;
+}
+
 .profile {
   text-align: center;
   width: 350px;
-  font-weight: bold;
 }
 .profile .container {
   position: relative;
@@ -559,18 +566,17 @@ a:hover {
 .profile .container ul {
   background-color: #FCDE9C;
   padding: 8%;
-  margin-bottom: 7%;
   border: 10px solid #e9e9e9;
   height: 170px;
+  width: 400px;
+  margin: 0 auto;
 }
 .profile .container a {
   background-color: #FCDE9C;
   padding: 10px;
   transition: all 0.8s ease-in;
   border-radius: 5px;
-  position: absolute;
-  bottom: 35px;
-  right: 32%;
+  display: block;
 }
 .profile .container a:hover {
   background-color: #BBCDE5;
@@ -607,7 +613,6 @@ a:hover {
   border: 5px solid rgb(233, 233, 233);
 }
 #styles .container ul li span {
-  font-weight: bold;
   display: flex;
   flex-direction: column;
   margin-top: 5px;
@@ -636,10 +641,6 @@ a:hover {
   color: black;
 }
 
-#styles {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 #styles .container ul li {
   position: relative;
 }
@@ -707,10 +708,6 @@ a:hover {
   #styles .container ul li span a:first-child {
     margin-top: 75px;
   }
-  #styles {
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
   #styles .container ul li:nth-child(1),
   #styles .container ul li:nth-child(2),
   #styles .container ul li:nth-child(3) {
@@ -757,23 +754,8 @@ main > .container {
   }
 }
 
-#styles, aside.profile {
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1000px) {
-  #styles, aside.profile {
-    width: 1000px;
-  }
-}
-
 aside.profile {
   width: 100%;
-}
-@media screen and (min-width: 500px) {
-  aside.profile {
-    width: 400px;
-  }
 }
 
 main > .container > * {
@@ -813,7 +795,6 @@ blockquote {
   transition: 0.2s;
   border-radius: 5px;
   border: 5px solid #e9e9e9;
-  font-weight: bold;
   text-align: center;
   margin: 10px auto;
 }
@@ -841,8 +822,8 @@ section > ul > li:nth-of-type(7),
 section > ul > li:nth-of-type(10),
 section > ul > li:nth-of-type(13),
 section > ul > li:nth-of-type(16) {
-  animation: fadeIn 1.5s;
-  -webkit-animation: fadeIn 1.5s;
+  animation: fadeIn 3.5s;
+  -webkit-animation: fadeIn 3.5s;
 }
 
 section > ul > li:nth-of-type(2),
@@ -851,8 +832,8 @@ section > ul > li:nth-of-type(8),
 section > ul > li:nth-of-type(11),
 section > ul > li:nth-of-type(14),
 section > ul > li:nth-of-type(17) {
-  animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
 }
 
 section > ul > li:nth-of-type(3),
@@ -860,8 +841,8 @@ section > ul > li:nth-of-type(6),
 section > ul > li:nth-of-type(9),
 section > ul > li:nth-of-type(12),
 section > ul > li:nth-of-type(15) {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
 }
 
 @keyframes fadeIn {
@@ -881,8 +862,8 @@ section > ul > li:nth-of-type(15) {
   }
 }
 blockquote {
-  -webkit-animation: bounce-in-left 1.2s both;
-  animation: bounce-in-left 1.7s both;
+  -webkit-animation: bounce-in-left 3.2s both;
+  animation: bounce-in-left 3.7s;
 }
 
 /**

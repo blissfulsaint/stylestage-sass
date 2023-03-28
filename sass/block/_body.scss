@@ -26,15 +26,8 @@ main > .container {
     }
 }
 
-#styles, aside.profile {
-    @include bodyWidth();
-}
-
 aside.profile {
     width: 100%;
-    @media screen and (min-width: 500px){
-        width: 400px;
-    }
 }
 
 main > .container > * {
