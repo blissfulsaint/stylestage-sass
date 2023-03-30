@@ -43,10 +43,13 @@ header {
       a {
         color: $accent-color;
         transition: $hover-transition-speed;
-        background-color: $primary-color;
+        background-color: $secondary-color;
+        padding: .2em .4em;
+        border-radius: .2em;
 
         &:hover {
-          color: white;
+          color: $secondary-color;
+          background-color: $accent-color;
         }
       }
     }

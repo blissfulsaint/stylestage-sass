@@ -3,11 +3,12 @@
 
 
 blockquote{
-    border: solid black 1px;
     padding: 10px;
-    background-color: $accent-color;
-
-
+    background-color: #fcde9cf5;
+    
+    a {
+        color: $primary-color;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -23,7 +24,6 @@ article:first-of-type>section.container:first-child
 }
 blockquote{
     grid-column: 3/4;
-    background-color: $accent-color;
     height: fit-content;
     padding: 20px;
     justify-content: center;
