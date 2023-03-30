@@ -61,7 +61,11 @@ main > .container > * {
 }
 
 blockquote {
-    border-radius: 10px;
+    border-radius: 1.3em;
+    border: .6em solid white;
+    p {
+        margin: auto;
+    }
 }
 
 #guidelines {
