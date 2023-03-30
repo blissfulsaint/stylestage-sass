@@ -451,7 +451,6 @@ blockquote p {
   background-color: #FCDE9C;
   margin-top: 10%;
   border-radius: 5px;
-  padding: 10px;
   transition: 0.75s;
 }
 .page-footer .container ul li:hover {
@@ -459,7 +458,9 @@ blockquote p {
   transition-duration: 0.5s;
 }
 .page-footer .container ul li a {
-  padding: 0;
+  padding: 10px;
+  display: block;
+  height: 50%;
   transition: 0.2s;
 }
 .page-footer .container ul li a:hover {
@@ -474,13 +475,19 @@ blockquote p {
   width: 15px;
   animation: none;
 }
+.page-footer .container p {
+  line-height: 2.2em;
+}
 .page-footer .container p a {
   color: #FCDE9C;
-  background-color: #FF92A6;
+  background-color: #525252;
   transition: 0.2s;
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
 }
 .page-footer .container p a:hover {
-  color: white;
+  color: #525252;
+  background-color: #FCDE9C;
 }
 
 @media only screen and (min-width: 700px) {

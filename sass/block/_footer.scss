@@ -65,13 +65,20 @@ footer:not(.files) {
       }
     }
 
+    p {
+      line-height: 2.2em;
+    }
+
     p a{
       color:$accent-color;
-      background-color: $primary-color;
+      background-color: $secondary-color;
       transition: $hover-transition-speed;
+      padding: .2em .4em;
+      border-radius: .3em;
 
       &:hover{
-        color:white;
+        color:$secondary-color;
+        background-color: $accent-color;
       }
     }
   }
