@@ -32,18 +32,18 @@ footer:not(.files) {
         // font-weight: bold;
         margin-top: 10%;
         border-radius: 5px;
-        padding: 10px;
+        
         transition: 0.75s;
 
         &:hover {
           box-shadow: 5px 5px $hover-color;
-          //padding: 7px;
           transition-duration: 0.5s;
         }
-      }
-
-      li a {
-        padding: 0;
+        
+        a {
+        padding: 10px;
+        display: block;
+        height: 50%;
         transition: $hover-transition-speed;
 
         &:hover {
@@ -56,6 +56,7 @@ footer:not(.files) {
 
         }
       }
+    }
 
       li a svg {
         background-color: $accent-color;
