@@ -48,7 +48,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -96,7 +96,7 @@ li:not(section.container li) {
 }
 
 body {
-  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -285,7 +285,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -360,7 +360,7 @@ li:not(section.container li) {
 }
 
 body {
-  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -514,7 +514,7 @@ li:not(section.container li) {
 }
 
 body {
-  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -582,7 +582,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -638,7 +638,7 @@ li:not(section.container li) {
 }
 
 body {
-  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -706,7 +706,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -807,7 +807,7 @@ a:hover {
 }
 
 .profile, #styles, #contribute {
-  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../../images/japannight.jpg");
+  background: linear-gradient(rgba(93, 93, 93, 0.685), rgba(75, 75, 75, 0.693)), url("../images/japannight.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -940,7 +940,7 @@ a:hover {
   position: relative;
 }
 #styles .container ul li:nth-child(1):before {
-  background-image: url("../../images/test2.jpg");
+  background-image: url("../images/test2.jpg");
   background-repeat: no-repeat;
   position: absolute;
   content: "";
@@ -957,7 +957,7 @@ a:hover {
   width: 0%;
 }
 #styles .container ul li:nth-child(2):before {
-  background-image: url("../../images/christine.jpg");
+  background-image: url("../images/christine.jpg");
   background-repeat: no-repeat;
   position: absolute;
   content: "";
@@ -974,7 +974,7 @@ a:hover {
   width: 0%;
 }
 #styles .container ul li:nth-child(3):before {
-  background-image: url("../../images/beatriceIMG.jpg");
+  background-image: url("../images/beatriceIMG.jpg");
   background-repeat: no-repeat;
   position: absolute;
   content: "";
@@ -1047,7 +1047,7 @@ li:not(section.container li) {
 }
 
 body {
-  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../../images/japanday.jpg");
+  background: linear-gradient(rgba(236, 236, 236, 0.768), rgba(238, 238, 238, 0.752)), url("../images/japanday.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
