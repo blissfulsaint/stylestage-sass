@@ -5,7 +5,7 @@ footer:not(.files) {
 }
 
 .page-footer {
-  background-color: $primary-color;
+  background-color: $secondary-color;
   .container {
     @include bodyWidth();
     display: grid;
@@ -68,18 +68,15 @@ footer:not(.files) {
 
     p {
       line-height: 2.2em;
+      color: white;
     }
 
     p a{
       color:$accent-color;
-      background-color: $secondary-color;
-      transition: $hover-transition-speed;
-      padding: .2em .4em;
-      border-radius: .3em;
 
       &:hover{
-        color:$secondary-color;
-        background-color: $accent-color;
+        text-decoration: underline;
+        background-color: transparent;
       }
     }
   }
