@@ -49,6 +49,7 @@ footer:not(.files) {
         &:hover {
           background-color: $accent-color;
           color: white;
+          border-radius: 10px;
 
           svg{
             fill: white;

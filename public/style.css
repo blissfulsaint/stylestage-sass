@@ -466,6 +466,7 @@ blockquote p {
 .page-footer .container ul li a:hover {
   background-color: #FCDE9C;
   color: white;
+  border-radius: 10px;
 }
 .page-footer .container ul li a:hover svg {
   fill: white;
