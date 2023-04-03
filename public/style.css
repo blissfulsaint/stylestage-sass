@@ -614,7 +614,14 @@ a:hover {
 }
 
 #guidelines {
-  background-color: #FF92A6;
+  background-color: rgba(255, 146, 166, 0.9725490196);
+}
+#guidelines a {
+  color: #FCDE9C;
+}
+#guidelines a:hover {
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 p {

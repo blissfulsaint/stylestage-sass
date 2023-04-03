@@ -10,7 +10,14 @@ main, aside {
 }
 
 #guidelines {
-    background-color: $primary-color;
+    background-color: #ff92a6f8;
+    a {
+        color: $accent-color;
+        &:hover {
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    }
 }
 
 // #guidelines::before {
